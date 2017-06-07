@@ -12,7 +12,7 @@ def main():
     parser.add_argument(
         "method",
         help="HTTP Method used for the testing request",
-        choices=['GET', 'POST', 'PUT', 'PATCH', 'DELETE'])
+        choices=['GET', 'POST', "PUT", 'PATCH', 'DELETE'])
     parser.add_argument("-u", "--url", help="URL of the API",
                         default='http://localhost:8080/home')
 
